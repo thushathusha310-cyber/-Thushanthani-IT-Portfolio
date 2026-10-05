@@ -195,57 +195,23 @@ section {
 }
 
 
-/* ================= CODE CARD ================= */
+/* ================= PROFILE PHOTO ================= */
 
 .hero-card {
     width: 480px;
     max-width: 100%;
-}
-
-.code-window {
-    background: #0c1929;
-    border: 1px solid #21364c;
-    border-radius: 14px;
-    overflow: hidden;
-    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.35);
-    transform: rotate(1deg);
-}
-
-.window-top {
-    height: 42px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 7px;
-    padding: 0 15px;
-    background: #101f31;
-    border-bottom: 1px solid #21364c;
 }
 
-.window-top span {
-    width: 11px;
-    height: 11px;
+.profile-photo {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
     border-radius: 50%;
-    background: #40576c;
-}
-
-.code-content {
-    padding: 35px;
-    font-family: Consolas, monospace;
-    font-size: 14px;
-    color: #d4e2ef;
-    line-height: 2;
-}
-
-.code-content .pink {
-    color: #f472b6;
-}
-
-.code-content .green {
-    color: #4ade80;
-}
-
-.indent {
-    padding-left: 25px;
+    display: block;
+    margin: auto;
 }
 
 
@@ -729,10 +695,5 @@ footer p {
     .skills-grid {
         grid-template-columns: 1fr 1fr;
         gap: 10px;
-    }
-
-    .code-content {
-        padding: 20px;
-        font-size: 11px;
     }
 }
